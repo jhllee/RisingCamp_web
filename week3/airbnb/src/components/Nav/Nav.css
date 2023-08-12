@@ -1,0 +1,33 @@
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  /* box-sizing: border-box; */
+}
+
+.carousel__list {
+  width: 98%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel__list-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-description {
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.carousel__list-item {
+  object-fit: contain;
+  height: 25px;
+  margin: 5px;
+}

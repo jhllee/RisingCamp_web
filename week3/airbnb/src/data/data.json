@@ -1,0 +1,54 @@
+[
+    {
+        "src": "../img/camping.jpg",
+        "description": "캠핑장"
+    },
+    {
+        "src": "../img/farm.jpg",
+        "description": "농장"
+    },
+    {
+        "src": "../img/new.jpg",
+        "description": "신규"
+    },
+    {
+        "src": "../img/golf.jpg",
+        "description": "골프장"
+    },
+    {
+        "src": "../img/create.jpg",
+        "description": "창작 공간"
+    },
+    {
+        "src": "../img/pool.jpg",
+        "description": "멋진 수영장"
+    },
+    {
+        "src": "../img/room.jpg",
+        "description": "방"
+    },
+    {
+        "src": "../img/beach.jpg",
+        "description": "해변 바로 앞"
+    },
+    {
+        "src": "../img/urban.jpg",
+        "description": "한적한 시골"
+    },
+    {
+        "src": "../img/hanok.jpg",
+        "description": "한옥"
+    },
+    {
+        "src": "../img/park.jpg",
+        "description": "국립공원"
+    },
+    {
+        "src": "../img/hottest.jpg",
+        "description": "인기 급상승"
+    },
+    {
+        "src": "../img/weird.jpg",
+        "description": "기상천외한 숙소"
+    }
+]

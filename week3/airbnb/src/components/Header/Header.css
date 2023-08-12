@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.header__icon {
+  /* 로고 크기가 안바뀌게 하는법 */
+  object-fit: contain;
+  height: 70px;
+}
+
+.header__choice {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid lightgray;
+  box-shadow: 0 5px 5px -3px lightgray;
+  border-radius: 50px;
+  width: 350px;
+  height: 50px;
+}
+
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.header__language {
+  object-fit: contain;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.button-where {
+  border: 0;
+  background-color: transparent;
+}
+
+.search {
+  border-radius: 50%;
+  background-color: #FF385C;
+  width: 30px;
+  height: 30px;
+}
+
+.button-search {
+  object-fit: contain;
+  height: 15px;
+  color: white;
+}
