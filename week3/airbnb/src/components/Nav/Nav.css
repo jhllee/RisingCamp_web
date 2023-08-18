@@ -5,6 +5,13 @@
   width: 100%;
   padding: 5px;
   /* box-sizing: border-box; */
+
+  /* position: sticky;
+  padding-top: 32px;
+  top: -32px; */
+
+  border-top: 1px solid lightgray;
+  /* border 양 끝 늘려야되는데.. border-top이랑 내용물 간격 늘려야할 듯 */
 }
 
 .carousel__list {
@@ -16,18 +23,36 @@
 }
 
 .carousel__list-items {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .img-description {
-    margin-top: 8px;
-    font-size: 12px;
+  margin-top: 8px;
+  font-size: 12px;
+  filter: invert(40%);
+  font-weight: bold;
 }
 
 .carousel__list-item {
   object-fit: contain;
   height: 25px;
   margin: 5px;
+  filter: invert(40%);
+}
+
+.filter-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  background-color: transparent;
+  width: 80px;
+}
+
+.filter-logo {
+  object-fit: contain;
+  height: 12px;
 }

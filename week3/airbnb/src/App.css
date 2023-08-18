@@ -1,5 +1,5 @@
 .app {
-    margin: 0 40px;
-    box-sizing: border-box;
-    /* padding을 포함한 전체 크기 유지? */
+    margin: 0 50px;
+    /* box-sizing: border-box;
+       padding을 포함한 전체 크기 유지? 필요한가? */
   }
