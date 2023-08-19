@@ -4,7 +4,7 @@ const form = document.querySelector("form")!;
 const addressInput = document.getElementById("address")! as HTMLInputElement;
 // 느낌표는 null이 되지 않을 것이란 뜻임
 
-const GOOGLE_API_KEY = "AIzaSyDMF5cG6w9K5M0tp6xICS_0vRc5-Y36PgY";
+const GOOGLE_API_KEY = "{MY_API_KEY}";
 
 declare var google: any;
 
