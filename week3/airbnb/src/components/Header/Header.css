@@ -3,11 +3,12 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 10px;
+  padding-bottom: 10px;
   /* border-box: width와 height가 content의 너비(기본값)가 아니라 border까지 포함한 태그의 너비 */
   box-sizing: border-box;
   /* position: sticky;
   top: 0; */
+  border-bottom: 1px solid lightgray;
 }
 
 .header__icon {

@@ -1,0 +1,13 @@
+.lay {
+  margin: 0 50px;
+  /* box-sizing: border-box;
+     padding을 포함한 전체 크기 유지? 필요한가? */
+}
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 16px;
+  }
+  /* 창의 크기 줄였을 때 한 줄에 4개의 이미지가 나열되도록
+  이미지가 비율 유지하며 작아지도록 구현해야함*/

@@ -3,15 +3,12 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 5px;
+  padding-top: 25px;
   /* box-sizing: border-box; */
 
   /* position: sticky;
   padding-top: 32px;
   top: -32px; */
-
-  border-top: 1px solid lightgray;
-  /* border 양 끝 늘려야되는데.. border-top이랑 내용물 간격 늘려야할 듯 */
 }
 
 .carousel__list {

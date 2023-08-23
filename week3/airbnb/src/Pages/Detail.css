@@ -1,0 +1,60 @@
+.detail {
+  margin: 0 200px;
+  /* box-sizing: border-box;
+     padding을 포함한 전체 크기 유지? 필요한가? */
+}
+
+.room-detail {
+  display: flex;
+  align-items: flex-start;
+}
+
+.room-detail .r1 {
+  width: 560px;
+  height: 380px;
+  margin: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+}
+
+.room-detail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.room-detail .r2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.room-detail .r2-1,
+.room-detail .r2-2 {
+  width: 260px;
+  height: 185px;
+  margin-bottom: 10px;
+}
+
+.room-detail .r3 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.room-detail .r3-1 {
+  width: 260px;
+  height: 185px;
+  margin-bottom: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+
+.room-detail .r3-2 {
+  width: 260px;
+  height: 185px;
+  margin-bottom: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}

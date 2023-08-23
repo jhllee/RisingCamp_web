@@ -1,12 +1,12 @@
-// Main은 어떤 components 폴더에 넣는 것이 좋을지
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
-import "./Main.css";
-import Nav from "./components/Nav/Nav";
-import Card from "./components/Card/Card";
-import roomData from "./data/roomData.json";
+import "./Home.css";
+import Nav from "../components/Nav/Nav"
+import Card from "../components/Card/Card";
+import roomData from "../data/roomData.json";
 
-function Main() {
+function Home() {
   const [filteredRoom, setFilteredRoom] = useState({ category: "camping" });
 
   const filterChangeHandler1 = (selectedItem) => {
@@ -18,7 +18,7 @@ function Main() {
   );
 
   return (
-    <div>
+    <div className="lay">
       <Nav
         selected={filteredRoom.category}
         onChangeFilter={filterChangeHandler1}
@@ -26,15 +26,19 @@ function Main() {
 
       <div className="rooms">
         {displayedRooms.map((room) => (
-          <Card key={room.description} className="room-card">
-            <img src={room.src} alt={room.description} />
-            <p>Name: {room.description}</p>
+          <Link key={room.name} className="room-link" to={`/detail/${room.roomId}`}>
+          <Card key={room.name} className="room-card">
+            <img src={room.src} alt={room.name} />
+            <p>Name: {room.name}</p>
             <p>Category: {room.category}</p>
           </Card>
+          </Link>
         ))}
       </div>
+
+      <a href="/detail">Click here</a>
     </div>
   );
 }
 
-export default Main;
+export default Home;
