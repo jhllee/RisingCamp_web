@@ -1,0 +1,47 @@
+[
+  {
+    "description": "가평의 1번 캠핑장",
+    "src": "images/rooms/가평군.webp",
+    "category": "camping",
+    "price": 164,
+    "priceCurrency": "EUR",
+    "lat": 48.884211,
+    "lng": 2.34689
+  },
+  {
+    "description": "가평의 2번 캠핑장",
+    "src": "images/rooms/가평군.webp",
+    "category": "camping",
+    "price": 164,
+    "priceCurrency": "EUR",
+    "lat": 48.884211,
+    "lng": 2.34689
+  },
+  {
+    "description": "가평의 3번 캠핑장",
+    "src": "images/rooms/가평군.webp",
+    "category": "camping",
+    "price": 164,
+    "priceCurrency": "EUR",
+    "lat": 48.884211,
+    "lng": 2.34689
+  },
+  {
+    "description": "가평의 4번 캠핑장",
+    "src": "images/rooms/가평군.webp",
+    "category": "camping",
+    "price": 164,
+    "priceCurrency": "EUR",
+    "lat": 48.884211,
+    "lng": 2.34689
+  },
+  {
+    "description": "제주시 구좌읍의 농장",
+    "src": "images/rooms/구좌읍.webp",
+    "category": "farm",
+    "price": 164,
+    "priceCurrency": "EUR",
+    "lat": 48.884211,
+    "lng": 2.34689
+  }
+]

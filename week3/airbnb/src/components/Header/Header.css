@@ -1,0 +1,100 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  /* border-box: width와 height가 content의 너비(기본값)가 아니라 border까지 포함한 태그의 너비 */
+  box-sizing: border-box;
+  /* position: sticky;
+  top: 0; */
+}
+
+.header__icon {
+  /* 로고 크기가 안바뀌도록 설정 */
+  object-fit: contain;
+  height: 70px;
+}
+
+.header__choice {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid lightgray;
+  box-shadow: 0 5px 5px -3px lightgray;
+  border-radius: 50px;
+  width: 350px;
+  height: 50px;
+}
+
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.header__language {
+  object-fit: contain;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.button-where {
+  border: 0;
+  background-color: transparent;
+}
+
+.search {
+  border-radius: 50%;
+  background-color: #FF385C;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.button-search {
+  object-fit: contain;
+  height: 15px;
+  color: white;
+  /* img 기본 색상을 반전시켜 검은색에서 흰색으로 변경 */
+  filter: invert(100%);
+  /* img를 부모 요소의 정중앙에 정렬 */
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__right {
+  width: 350px;
+}
+
+.bethehost {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header__user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: row; */
+  /* row로 하나 space-around로 하나 수평정렬되네 */
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  width: 80px;
+  height: 40px;
+}
+
+.menu__icon {
+  object-fit: contain;
+  height: 15px;
+  margin-left: 5px;
+}
+
+.user__icon {
+  object-fit: contain;
+  height: 30px;
+  filter: invert(50%);
+}

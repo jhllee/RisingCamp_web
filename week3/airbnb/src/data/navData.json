@@ -1,0 +1,67 @@
+[
+    {
+        "src": "images/nav/camping.jpg",
+        "description": "캠핑장",
+        "category": "camping"
+    },
+    {
+        "src": "images/nav/farm.jpg",
+        "description": "농장",
+        "category": "farm"
+    },
+    {
+        "src": "images/nav/new.jpg",
+        "description": "신규",
+        "category": "new"
+    },
+    {
+        "src": "images/nav/golf.jpg",
+        "description": "골프장",
+        "category": "golf"
+    },
+    {
+        "src": "images/nav/creative.jpg",
+        "description": "창작 공간",
+        "category": "creative"
+    },
+    {
+        "src": "images/nav/pool.jpg",
+        "description": "멋진 수영장",
+        "category": "swimming"
+    },
+    {
+        "src": "images/nav/room.jpg",
+        "description": "방",
+        "category": "room"
+    },
+    {
+        "src": "images/nav/beach.jpg",
+        "description": "해변 바로 앞",
+        "category": "beach"
+    },
+    {
+        "src": "images/nav/countryside.jpg",
+        "description": "한적한 시골",
+        "category": "countryside"
+    },
+    {
+        "src": "images/nav/hanok.jpg",
+        "description": "한옥",
+        "category": "hanok"
+    },
+    {
+        "src": "images/nav/park.jpg",
+        "description": "국립공원",
+        "category": "park"
+    },
+    {
+        "src": "images/nav/trending.jpg",
+        "description": "인기 급상승",
+        "category": "trending"
+    },
+    {
+        "src": "images/nav/weird.jpg",
+        "description": "기상천외한 숙소",
+        "category": "weird"
+    }
+]
