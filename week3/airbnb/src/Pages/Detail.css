@@ -1,12 +1,26 @@
 .detail {
   margin: 0 200px;
-  /* box-sizing: border-box;
-     padding을 포함한 전체 크기 유지? 필요한가? */
+}
+
+.leftandright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left span {
+  margin-right: 11px;
+  /* display: flex;
+  justify-content:space-between; */
+}
+
+.right span {
+  margin-left: 11px;
 }
 
 .room-detail {
   display: flex;
   align-items: flex-start;
+  margin-top: 20px;
 }
 
 .room-detail .r1 {
@@ -57,4 +71,8 @@
   margin-bottom: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
+}
+
+.map {
+  margin: 20px 0;
 }

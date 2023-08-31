@@ -1,0 +1,29 @@
+{
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Default Dark+",
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 15,
+    "workbench.editorAssociations": {
+      "*.7z": "default"
+    }
+  }
