@@ -1,24 +1,25 @@
 import "./Nav.css";
 import navData from "../../data/navData.json";
 
-function Nav(props) {
+function Nav({onChangeFilter}) {
   const filterChangeHandler = (event) => {
     const category = event.currentTarget.getAttribute("category");
 
     if (category) {
-      props.onChangeFilter(category);
+      onChangeFilter(category);
     }
   };
 
   return (
     <div className="carousel">
-      <div className="carousel__left-button"></div>
+      <div className="carousel__left-button" />
       <div className="carousel__list">
         {navData.map((image) => (
           <div
             className="carousel__list-items"
             onClick={filterChangeHandler}
             category={image.category}
+            role="presentation"
           >
             <img
               className="carousel__list-item"
@@ -28,16 +29,16 @@ function Nav(props) {
             <p className="img-description">{image.description}</p>
           </div>
         ))}
-        <button className="filter-button">
+        <button type="button" className="filter-button">
           <img
             className="filter-logo"
-            src={process.env.PUBLIC_URL + "/images/logos/filter.png"}
+            src={`${process.env.PUBLIC_URL  }/images/logos/filter.png`}
             alt="filter"
           />
           <p>필터</p>
         </button>
       </div>
-      <div className="carousel__right-button"></div>
+      <div className="carousel__right-button" />
     </div>
   );
 }

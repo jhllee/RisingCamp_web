@@ -1,0 +1,78 @@
+.detail {
+  margin: 0 200px;
+}
+
+.leftandright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left span {
+  margin-right: 11px;
+  /* display: flex;
+  justify-content:space-between; */
+}
+
+.right span {
+  margin-left: 11px;
+}
+
+.room-detail {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.room-detail .r1 {
+  width: 560px;
+  height: 380px;
+  margin: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+}
+
+.room-detail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.room-detail .r2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.room-detail .r2-1,
+.room-detail .r2-2 {
+  width: 260px;
+  height: 185px;
+  margin-bottom: 10px;
+}
+
+.room-detail .r3 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.room-detail .r3-1 {
+  width: 260px;
+  height: 185px;
+  margin-bottom: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+
+.room-detail .r3-2 {
+  width: 260px;
+  height: 185px;
+  margin-bottom: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+
+.map {
+  margin: 20px 0;
+}
